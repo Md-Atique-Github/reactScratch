@@ -1,8 +1,6 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 // import useState from react;
 import 'bootstrap/dist/css/bootstrap.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCircleCheck,faPen,faTrashCan} from '@fortawesome/free-solid-svg-icons'
 
 import './App.css';
 
@@ -51,7 +49,7 @@ function App() {
 
       {/*Display Things*/}
 
-    {toDo && toDo.length ? '' : 'No Task...'}
+    {toDo && toDo.length ? 'is present' : 'No Task...'}
 
     </div>
   );
